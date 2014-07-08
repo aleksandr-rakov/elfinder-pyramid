@@ -20,4 +20,4 @@ Done!
 Notes:
 -------------
 - This connector support only v.1 protocol
-- requires PIL for thumbnail generator
+- requires PIL or PILLOW for thumbnail generation

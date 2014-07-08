@@ -1342,8 +1342,14 @@ class connector():
 				self._im = Image
 				self._options['imgLib'] = 'PIL'
 			except:
-				self._options['imgLib'] = False
-				self._im = False
+				try:
+					from PIL import Image
+					Image
+					self._im = Image
+					self._options['imgLib'] = 'PILLOW'
+				except:
+					self._options['imgLib'] = False
+					self._im = False
 
 		self.__debug('imgLib', self._options['imgLib'])
 		return self._options['imgLib']
