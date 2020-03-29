@@ -1,6 +1,6 @@
 |Build Status| |Coveralls| |Stories in Ready|
 
-Forked from `elfinder-pyramid`_ writed by `Aleksandr Rakov`_
+Forked from `elfinder-pyramid`_ written by `Aleksandr Rakov`_
 
 connector.py
 ------------
